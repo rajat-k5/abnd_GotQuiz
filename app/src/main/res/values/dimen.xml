@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Questions -->
+    <dimen name="quiz_textSize">22sp</dimen>
+    <dimen name="que_topmargin">16dp</dimen>
+    <dimen name="que_leftmargin">8dp</dimen>
+    <dimen name="que_bottommargin">8dp</dimen>
+
+    <!--Question Options-->
+    <dimen name="option_bottommargin">12dp</dimen>
+
+
+    <!--Divider between Questions-->
+    <dimen name="divider_height">2dp</dimen>
+
+    <!--Image button -->
+    <dimen name="imageButton_marginBottom">6dp</dimen>
+    <dimen name="imageButton_marginSide">32dp</dimen>
+    <dimen name="btn_textSize">32sp</dimen>
+</resources>

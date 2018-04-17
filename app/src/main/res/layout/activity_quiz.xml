@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.gotquiz.quiz">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eeeff1">
+
+        <TextView
+            android:id="@+id/q1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/que_bottommargin"
+            android:layout_marginLeft="@dimen/que_leftmargin"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="@dimen/que_topmargin"
+            android:fontFamily="@font/allerta_stencil"
+            android:text="@string/ques1"
+            android:textColor="@color/questionColor"
+            android:textSize="@dimen/quiz_textSize" />
+
+        <RadioGroup
+            android:id="@+id/q1o"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q1"
+            android:layout_marginBottom="@dimen/option_bottommargin"
+            android:saveEnabled="true">
+
+            <RadioButton
+                android:id="@+id/q1o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q1o1" />
+
+            <RadioButton
+                android:id="@+id/q1o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q1o2" />
+
+            <RadioButton
+                android:id="@+id/q1o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q1o3" />
+
+            <RadioButton
+                android:id="@+id/q1o4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q1o4" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height"
+            android:layout_above="@id/q2"
+            android:background="@color/dividerColor" />
+
+        <TextView
+            android:id="@+id/q2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/q1o"
+            android:layout_marginBottom="@dimen/que_bottommargin"
+            android:layout_marginLeft="@dimen/que_leftmargin"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="@dimen/que_topmargin"
+            android:fontFamily="@font/allerta_stencil"
+            android:text="@string/ques2"
+            android:textColor="@color/questionColor"
+            android:textSize="@dimen/quiz_textSize" />
+
+        <RadioGroup
+            android:id="@+id/q2o"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q2"
+            android:layout_marginBottom="@dimen/option_bottommargin">
+
+            <RadioButton
+                android:id="@+id/q2o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q2o1" />
+
+            <RadioButton
+                android:id="@+id/q2o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q2o2" />
+
+            <RadioButton
+                android:id="@+id/q2o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q2o3" />
+
+            <RadioButton
+                android:id="@+id/q2o4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q2o4" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height"
+            android:layout_above="@id/q3"
+            android:background="@color/dividerColor" />
+
+        <TextView
+            android:id="@+id/q3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/q2o"
+            android:layout_marginBottom="@dimen/que_bottommargin"
+            android:layout_marginLeft="@dimen/que_leftmargin"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="@dimen/que_topmargin"
+            android:fontFamily="@font/allerta_stencil"
+            android:text="@string/ques3"
+            android:textColor="@color/questionColor"
+            android:textSize="@dimen/quiz_textSize" />
+
+        <RadioGroup
+            android:id="@+id/q3o"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q3"
+            android:layout_marginBottom="@dimen/option_bottommargin">
+
+            <RadioButton
+                android:id="@+id/q3o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q3o1" />
+
+            <RadioButton
+                android:id="@+id/q3o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q3o2" />
+
+            <RadioButton
+                android:id="@+id/q3o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q3o3" />
+
+            <RadioButton
+                android:id="@+id/q3o4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q3o4" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height"
+            android:layout_above="@id/q4"
+            android:background="@color/dividerColor" />
+
+        <TextView
+            android:id="@+id/q4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q3o"
+            android:layout_marginBottom="@dimen/que_bottommargin"
+            android:layout_marginLeft="@dimen/que_leftmargin"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="@dimen/que_topmargin"
+            android:fontFamily="@font/allerta_stencil"
+            android:text="@string/ques4"
+            android:textColor="@color/questionColor"
+            android:textSize="@dimen/quiz_textSize" />
+
+        <RadioGroup
+            android:id="@+id/q4o"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q4"
+            android:layout_marginBottom="@dimen/option_bottommargin">
+
+            <RadioButton
+                android:id="@+id/q4o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q4o1" />
+
+            <RadioButton
+                android:id="@+id/q4o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q4o2" />
+
+            <RadioButton
+                android:id="@+id/q4o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q4o3" />
+
+            <RadioButton
+                android:id="@+id/q4o4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q4o4" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height"
+            android:layout_above="@id/q5"
+            android:background="@color/dividerColor" />
+
+        <TextView
+            android:id="@+id/q5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/q4o"
+            android:layout_marginBottom="@dimen/que_bottommargin"
+            android:layout_marginLeft="@dimen/que_leftmargin"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="@dimen/que_topmargin"
+            android:fontFamily="@font/allerta_stencil"
+            android:text="@string/ques5"
+            android:textColor="@color/questionColor"
+            android:textSize="@dimen/quiz_textSize" />
+
+        <RadioGroup
+            android:id="@+id/q5o"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q5"
+            android:layout_marginBottom="@dimen/que_bottommargin">
+
+            <RadioButton
+                android:id="@+id/q5o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q5o1" />
+
+            <RadioButton
+                android:id="@+id/q5o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q5o2" />
+
+            <RadioButton
+                android:id="@+id/q5o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q5o3" />
+
+            <RadioButton
+                android:id="@+id/q5o4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q5o4" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height"
+            android:layout_above="@id/q6"
+            android:background="@color/dividerColor" />
+
+        <TextView
+            android:id="@+id/q6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/q5o"
+            android:layout_marginBottom="@dimen/que_bottommargin"
+            android:layout_marginLeft="@dimen/que_leftmargin"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="@dimen/que_topmargin"
+            android:fontFamily="@font/allerta_stencil"
+            android:text="@string/ques6"
+            android:textColor="@color/questionColor"
+            android:textSize="@dimen/quiz_textSize" />
+
+        <RadioGroup
+            android:id="@+id/q6o"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q6"
+            android:layout_marginBottom="@dimen/option_bottommargin">
+
+            <RadioButton
+                android:id="@+id/q6o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q6o1" />
+
+            <RadioButton
+                android:id="@+id/q6o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q6o2" />
+
+            <RadioButton
+                android:id="@+id/q6o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q6o3" />
+
+            <RadioButton
+                android:id="@+id/q6o4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q6o4" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height"
+            android:layout_above="@id/q7"
+            android:background="@color/dividerColor" />
+
+        <TextView
+            android:id="@+id/q7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/q6o"
+            android:layout_marginBottom="@dimen/que_bottommargin"
+            android:layout_marginLeft="@dimen/que_leftmargin"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="@dimen/que_topmargin"
+            android:fontFamily="@font/allerta_stencil"
+            android:text="@string/ques7"
+            android:textColor="@color/questionColor"
+            android:textSize="@dimen/quiz_textSize" />
+
+        <RadioGroup
+            android:id="@+id/q7o"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q7"
+            android:layout_marginBottom="@dimen/option_bottommargin">
+
+            <RadioButton
+                android:id="@+id/q7o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q7o1" />
+
+            <RadioButton
+                android:id="@+id/q7o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q7o2" />
+
+            <RadioButton
+                android:id="@+id/q7o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q7o3" />
+
+            <RadioButton
+                android:id="@+id/q7o4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q7o4" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height"
+            android:layout_above="@id/q8"
+            android:background="@color/dividerColor" />
+
+        <TextView
+            android:id="@+id/q8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/q7o"
+            android:layout_marginBottom="@dimen/que_bottommargin"
+            android:layout_marginLeft="@dimen/que_leftmargin"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="@dimen/que_topmargin"
+            android:fontFamily="@font/allerta_stencil"
+            android:text="@string/ques8"
+            android:textColor="@color/questionColor"
+            android:textSize="@dimen/quiz_textSize" />
+
+        <RadioGroup
+            android:id="@+id/q8o"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q8"
+            android:layout_marginBottom="@dimen/option_bottommargin">
+
+            <CheckBox
+                android:id="@+id/q8o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q8o1" />
+
+            <CheckBox
+                android:id="@+id/q8o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q8o2" />
+
+            <CheckBox
+                android:id="@+id/q8o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q8o3" />
+
+            <CheckBox
+                android:id="@+id/q8o4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q8o4" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height"
+            android:layout_above="@id/q8"
+            android:background="@color/dividerColor" />
+
+        <TextView
+            android:id="@+id/q9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/q8o"
+            android:layout_marginBottom="@dimen/que_bottommargin"
+            android:layout_marginLeft="@dimen/que_leftmargin"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="@dimen/que_topmargin"
+            android:fontFamily="@font/allerta_stencil"
+            android:text="@string/ques9"
+            android:textColor="@color/questionColor"
+            android:textSize="@dimen/quiz_textSize" />
+
+        <RadioGroup
+            android:id="@+id/q9o"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q9"
+            android:layout_marginBottom="@dimen/option_bottommargin">
+
+            <RadioButton
+                android:id="@+id/q9o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q9o1" />
+
+            <RadioButton
+                android:id="@+id/q9o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q9o2" />
+
+            <RadioButton
+                android:id="@+id/q9o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q9o3" />
+
+            <RadioButton
+                android:id="@+id/q9o4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q9o4" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height"
+            android:layout_above="@id/q10"
+            android:background="@color/dividerColor" />
+
+        <TextView
+            android:id="@+id/q10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/q9o"
+            android:layout_marginBottom="@dimen/que_bottommargin"
+            android:layout_marginLeft="@dimen/que_leftmargin"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="@dimen/que_topmargin"
+            android:fontFamily="@font/allerta_stencil"
+            android:text="@string/ques10"
+            android:textColor="@color/questionColor"
+            android:textSize="@dimen/quiz_textSize" />
+
+        <ImageView
+            android:id="@+id/q10img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/q10"
+            android:contentDescription="QuizQuestion"
+            android:src="@drawable/q10" />
+
+        <RadioGroup
+            android:id="@+id/q10o"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q10img"
+            android:layout_marginBottom="@dimen/option_bottommargin">
+
+            <RadioButton
+                android:id="@+id/q10o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q10o1" />
+
+            <RadioButton
+                android:id="@+id/q10o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q10o2" />
+
+            <RadioButton
+                android:id="@+id/q10o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q10o3" />
+
+            <RadioButton
+                android:id="@+id/q10o4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/q10o4" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height"
+            android:layout_above="@id/q11"
+            android:background="@color/dividerColor" />
+
+        <TextView
+            android:id="@+id/q11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/q10o"
+            android:layout_marginBottom="@dimen/que_bottommargin"
+            android:layout_marginLeft="@dimen/que_leftmargin"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="@dimen/que_topmargin"
+            android:fontFamily="@font/allerta_stencil"
+            android:text="@string/ques11"
+            android:textColor="@color/questionColor"
+            android:textSize="@dimen/quiz_textSize" />
+
+        <EditText
+            android:id="@+id/q11o"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q11"
+            android:layout_marginBottom="@dimen/que_bottommargin"
+            android:layout_marginLeft="@dimen/que_leftmargin"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="@dimen/que_topmargin"
+            android:inputType="textCapWords"
+            android:saveEnabled="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height"
+            android:layout_above="@id/q12"
+            android:background="@color/dividerColor" />
+
+        <TextView
+            android:id="@+id/q12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/q11o"
+            android:layout_marginBottom="@dimen/que_bottommargin"
+            android:layout_marginLeft="@dimen/que_leftmargin"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="@dimen/que_topmargin"
+            android:fontFamily="@font/mountains_of_christmas_bold"
+            android:text="@string/ques12"
+            android:textColor="@color/questionColor"
+            android:textSize="@dimen/quiz_textSize" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/q12"
+            android:layout_alignStart="@+id/q12"
+            android:layout_below="@+id/q12"
+            android:layout_marginLeft="50dp"
+            android:layout_marginStart="50dp" />
+
+
+        <Button
+            android:id="@+id/submit_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ratingBar"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorAccent"
+            android:onClick="displayScore"
+            android:text="@string/submit_btn" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

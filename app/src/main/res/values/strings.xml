@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">GotQuiz</string>
+
+    <!-- String for Question and Options -->
+
+    <!--Question 1-->
+    <string name="ques1">1. What is the name of Jon Snow\'s Direwolf?</string>
+    <string name="q1o1">Grey Wind</string>
+    <string name="q1o2">Shadow</string>
+    <string name="q1o3">Ghost</string>
+    <string name="q1o4">Gargamel</string>
+
+    <!--Question 2-->
+    <string name="ques2">2. What is the official Lannister family motto?</string>
+    <string name="q2o1">“Hear Me Roar”</string>
+    <string name="q2o2">“A Lannister always pays his debts”</string>
+    <string name="q2o3">“None So Fierce”</string>
+    <string name="q2o4">“Never knowingly undersold”</string>
+
+    <!--Question 3-->
+    <string name="ques3">3. Which direwolf is the first to die?</string>
+    <string name="q3o1">Lady</string>
+    <string name="q3o2">Summer</string>
+    <string name="q3o3">Nymeria</string>
+    <string name="q3o4">Grey Wind</string>
+
+    <!--Question 4-->
+    <string name="ques4">4. Melisandre worships which god(s)?</string>
+    <string name="q4o1">The Seven</string>
+    <string name="q4o2">The Drowned God</string>
+    <string name="q4o3">The Lord of Light</string>
+    <string name="q4o4">The Old Gods</string>
+
+    <!--Question 5-->
+    <string name="ques5">5. Who is the first character to kill a White Walker?</string>
+    <string name="q5o1">Jon Snow</string>
+    <string name="q5o2">Grenn</string>
+    <string name="q5o3">Samwell Tarly</string>
+    <string name="q5o4">Jeor Mormont</string>
+
+    <!--Question 6-->
+    <string name="ques6">6. Who is Jon Snow’s mother?</string>
+    <string name="q6o1">Cersei Lannister</string>
+    <string name="q6o2">Lyanna Stark</string>
+    <string name="q6o3">Lysa Arryn</string>
+    <string name="q6o4">No One</string>
+
+    <!--Question 7-->
+    <string name="ques7">7. What’s the name of the band of assassins that Arya Stark joins in Braavos?</string>
+    <string name="q7o1">Second Sons</string>
+    <string name="q7o2">Faceless Men</string>
+    <string name="q7o3">Brotherhood Without Banners</string>
+    <string name="q7o4">Sons of the Harpy</string>
+
+    <!--Question 8-->
+    <string name="ques8">8. Which of the following is/are name(s) of Daenerys Targaryen’s dragons?</string>
+    <string name="q8o1">Rhaegal</string>
+    <string name="q8o2">Viserion</string>
+    <string name="q8o3">Dranzor</string>
+    <string name="q8o4">Balerion</string>
+
+    <!--Question 9-->
+    <string name="ques9">9. Which of the following is not the name of a sword?</string>
+    <string name="q9o1">Oathkeeper</string>
+    <string name="q9o2">Widow\'s Wail</string>
+    <string name="q9o3">Needle</string>
+    <string name="q9o4">Red Claw</string>
+
+    <!--Question 10-->
+    <string name="ques10">10. The following sigil belongs to which house?</string>
+    <string name="q10o1">House Targareyn</string>
+    <string name="q10o2">House Stark</string>
+    <string name="q10o3">House Baratheon</string>
+    <string name="q10o4">House Lannister</string>
+
+    <!--Question 11-->
+    <string name="ques11">11. Who is known as the Three eyed Raven?</string>
+
+    <!--Question 12-->
+    <string name="ques12">How much do you love Game of Thrones!!</string>
+
+    <!--Buttons-->
+    <string name="submit_btn">SUBMIT</string>
+    <string name="quiz">QUIZ</string>
+    <string name="fun">FUN</string>
+</resources>
